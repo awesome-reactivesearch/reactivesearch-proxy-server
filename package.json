@@ -1,0 +1,24 @@
+{
+  "name": "reactivesearch-proxy-server",
+  "version": "1.0.0",
+  "description": "A middleware to demonstrate how to secure reactivesearch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reactivesearch",
+    "nodejs",
+    "elasticsearch",
+    "secure",
+    "proxy-server",
+    "middleware"
+  ],
+  "author": "Divyanshu Maithani <div.blackcat@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "http-proxy-middleware": "^0.17.4"
+  }
+}
