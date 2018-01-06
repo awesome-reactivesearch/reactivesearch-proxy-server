@@ -1,6 +1,6 @@
 # reactivesearch-proxy-server
 
-A middleware to demonstrate how to secure reactivesearch using a simple Node/Express server.
+A middleware to demonstrate how to secure reactivesearch using a simple Node/Express server. Here I'm using [`http-proxy-middleware`](https://github.com/chimurai/http-proxy-middleware) for brevity however the logic can be extended easily with express based routing.
 
 ## Instructions
 
