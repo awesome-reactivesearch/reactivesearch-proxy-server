@@ -13,7 +13,7 @@ const options = {
     onProxyReq: (proxyReq, req) => {
         proxyReq.setHeader(
             'Authorization',
-            `Basic ${btoa('cf7QByt5e:d2d60548-82a9-43cc-8b40-93cbbe75c34c')}`
+            `Basic ${btoa('nY6NNTZZ6:27b76b9f-18ea-456c-bc5e-3a5263ebc63d')}`
         );
         /* transform the req body back from text */
         const { body } = req;
